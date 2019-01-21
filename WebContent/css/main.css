@@ -1,0 +1,238 @@
+@CHARSET "ISO-8859-1";
+body{
+/* 	 background-image: url("../images/back.jpg"); */
+	 background-color: lightblue;
+}
+* 
+.inputStyle
+{
+	width:500px !important;
+}
+.mycartStyle
+{
+	margin-top:20px;
+}
+.myColStyle
+{
+	margin-left:15px;
+}
+.myColStyle1
+{ 
+	margin-left:30px;
+}
+body
+{
+	background-color:lightblue;
+}
+.sideBar
+{
+	width:180px;
+	height:500px;
+	margin-left:70%;
+	margin-right:10px;
+}
+#first-row-div-id{
+	top:4px !important;	
+}
+#second-row-div-id{
+	top:4px !important;	
+}
+#searchinput {
+  padding: 6px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 40%;
+  background: #f1f1f1;
+  border-radius:5px;
+}
+
+#searchbutton {
+  float: left;
+  width: 3% !important;
+  padding: 6px;
+  background: #f1f1f1;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius:5px;
+}
+
+
+#i1 {
+	text-align: center;
+	color:red;
+}
+* {box-sizing: border-box;}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 3px;
+  font-size: 17px;
+  border: none;
+  width:900px;
+  top:2px;
+}
+.alignLeft
+{
+	position:absolute !important;
+	align:left;
+	
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 2.25rem !important;
+    top: 18px !important;
+    width :15rem !important;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.75rem !important;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(2.25rem - 1px) ;
+    border-top-right-radius: calc(1.25rem - 1px);
+}
+.name-text{
+	text-align: center;
+}
+#second-row{
+	    margin-top: 33px;
+}
+#second-home-card-id{
+	margin-top: 33px;
+}
+#second-offer-card-id{
+	margin-top:33px;
+}
+.dropdown, .dropup {
+    position: initial !important;
+        margin-left: 2px !important;
+}
+button.btn.btn-basic.dropdown-toggle{
+	padding: 8px!important;
+}
+.dropdown-menu {
+	    background-color: gainsboro !important;
+}

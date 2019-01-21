@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+	integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="js/main.js"></script>
+<title>Shopping Mode On</title>
+</head>
+<body>
+
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<img src="images/logo.jpg" alt="logo" />
+
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link" href="#">
+						PALPXKART<span class="sr-only">(current)</span>
+				</a></li>
+
+
+				<li class="nav-item active">
+					<button type="button" class="btn btn-outline-danger">Login
+						or Sign-up</button>
+				</li>
+
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2 inputStyle" type="search"
+					placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+				<ion-icon size="large" name="cart"></ion-icon>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<ion-icon size="large" name="gift"></ion-icon>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<ion-icon size="large" name="alarm"></ion-icon>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			</form>
+		</div>
+	</nav>
+
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a id="home-menu" href="#" onclick="homeFunction()"
+			onmouseover="mousehomeOver()" onmouseout="mousehomeOut()"><i
+			class="fa fa-home"></i>Home</a> <a id="offers-menu" href="#"
+			onclick="offerFunction()" onmouseover="mouseoffersOver()"
+			onmouseout="mouseoffersOut()">Offers</a> <a id="orders-menu" href="#"
+			onclick="myOrdersFunction()" onmouseover="mouseordersOver()"
+			onmouseout="mouseordersOut()">My Orders</a> <a id="wallet-menu"
+			href="#" onclick="myWalletFunction()" onmouseover="mousewalletOver()"
+			onmouseout="mousewalletOut()">My Wallet</a> <a id="help-menu"
+			href="#" onclick="myHelpFunction()" onmouseover="mousehelpOver()"
+			onmouseout="mousehelpOut()">Help Center</a> <a id="logout-menu"
+			href="#" onclick="myLogoutFunction()" onmouseover="mouselogoutOver()"
+			onmouseout="mouselogoutOut()">Logout</a>
+	</div>
+<div class="topnav">
+	<div class="container mycartStyle">
+		<div class="row " id="first-row-div-id">
+		<div class="col-lg-1">
+			<div style="font-size: 30px; cursor: pointer; margin-left: -80px" onclick="openNav()">&#9776;</div>
+			</div>
+			<div class="col-lg-2 myColStyle ">
+				<div class="card" style="width: 18rem;">
+					<img src="images/grc.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Food Items</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-1 myColStyle "></div>
+			<div class="col-lg-2 myColStyle1">
+				<div class="card" style="width: 18rem;">
+					<img src="images/elect.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Electronic Items .</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-1 myColStyle "></div>
+			<div class="col-lg-2 myColStyle1">
+				<div class="card" style="width: 18rem;">
+					<img src="images/clt.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Cloth Items</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container mycartStyle">
+		<div class="row" id="second-row-div-id">
+		<div class="col-lg-1">
+		<div style="font-size: 30px; cursor: pointer; margin-left: -70px" ></div>
+		</div>
+			<div class="col-lg-2 myColStyle ">
+				<div class="card" style="width: 18rem;">
+					<img src="images/grc.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Food Items</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-1 myColStyle "></div>
+			<div class="col-lg-2 myColStyle1">
+				<div class="card" style="width: 18rem;">
+					<img src="images/grc.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Electrnics Items .</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-1 myColStyle "></div>
+			<div class="col-lg-2 myColStyle1">
+				<div class="card" style="width: 18rem;">
+					<img src="images/clt.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Cloth Items</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+		integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/ionicons@4.5.1/dist/ionicons.js"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+		crossorigin="anonymous"></script>
+</body>
+</html>
